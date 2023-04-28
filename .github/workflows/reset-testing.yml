@@ -1,7 +1,7 @@
 name: Reset QA Branch
 on:
     schedule:
-        - cron: '44 * * * *'
+        - cron: '1 * * * *'
     workflow_dispatch:
 
 jobs:
