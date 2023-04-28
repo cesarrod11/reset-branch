@@ -1,7 +1,7 @@
 name: Rest Dev Branch to Master at 1am each day
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "36 * * * *"
 jobs:
   reset:
     name: Runner
